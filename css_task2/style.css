@@ -134,12 +134,23 @@ height:400px ;
 }
 .container4 div {
     border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+
    
 }
-
+.container4 div h1{
+    grid-row:1;
+}
+.container4 div img{
+    grid-row: 2;
+}
+.container4 div p{
+    grid-row: 3;
+}
+.container4 div footer{
+    grid-row:4;
+}
 .footer{
  color: white;
  background-color: black;
