@@ -125,17 +125,19 @@ font-size: 30px;
 
 .container3{
   display: grid;
-  width: 100%;
+  width: 80%;
   height: 800px;
   grid-template-columns: repeat(2,1fr);
+
   
 }
 
 .container3 div{
     color: white;
-     text-align: center;
+    text-align: center;
     font-size:30px ;
-
+    padding: 200px 200px ;
+    padding-top:400px ;
 }
 
 
